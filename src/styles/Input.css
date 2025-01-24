@@ -1,0 +1,22 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+.input-container label {
+  margin-right: 10px;
+  font-family: 'JetBrains Mono';
+}
+
+.number-input {
+  padding: 5px;
+  width: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input {
+  font-family: 'JetBrains Mono';
+}

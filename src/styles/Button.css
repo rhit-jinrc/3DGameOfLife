@@ -1,0 +1,57 @@
+.evolve-button {
+    position: absolute;
+    bottom: 90px;
+    right: 15px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'JetBrains Mono';
+    transition: background-color 0.3s ease;
+  }
+
+  .reset-button {
+    position: absolute;
+    bottom: 90px;
+    left: 15px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'JetBrains Mono';
+    transition: background-color 0.3s ease;
+  }
+  
+  .evolve-button:hover {
+    background-color: #36454F;
+  }
+  
+  .evolve-button:active {
+    background-color: #000000;
+  }
+  
+  .evolve-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #36454F;
+  }
+
+  .reset-button:hover {
+    background-color: #36454F;
+  }
+  
+  .reset-button:active {
+    background-color: #000000;
+  }
+  
+  .reset-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #36454F;
+  }

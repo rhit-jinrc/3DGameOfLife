@@ -1,0 +1,22 @@
+.selector-container {
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#shape {
+    margin-right: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+option {
+    font-family: 'JetBrains Mono';
+}
+
+select {
+    font-family: 'JetBrains Mono';
+}
