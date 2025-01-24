@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div className="app-container">
       <h1>
-        The Game of Life 3D
+        Conway Cubed
       </h1>
       <div className='dashboard-container'>
         <Dashboard 
