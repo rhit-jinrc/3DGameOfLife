@@ -4,7 +4,7 @@ Conway Cubed is a 3D implementation of Conway's Game of Life. Built with **React
 this project brings the classic cellular automaton into an interactive, three-dimensional space. Check it out here:
 [Explore Conway Cubed](https://conwaycubed.netlify.app/)
 
-<img src="assets/conwaycubed.gif" alt="image" width="700" height="auto">
+<img src="src/assets/conwaycubed.gif" alt="image" width="700" height="auto">
 
 ## Features
 
