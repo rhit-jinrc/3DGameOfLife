@@ -76,6 +76,7 @@ const App = () => {
         </Canvas>
       </div>
       <div className="button-container">
+        <InfoModal />
         <Button buttonName={"evolve-button"} onClick={evolveCells} label="Evolve Cells" />
         <Button buttonName={"reset-button"} onClick={resetCells} label="Reset Cells" />
       </div>

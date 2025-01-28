@@ -1,22 +1,30 @@
 import React, {useState} from 'react'
 import '../styles/InfoModal.css'
 
-const InfoModal = ({rules}) => {
-    const [isHovered, setIsHovered] = useState(false);
+const InfoModal = () => {
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () => {
+        setModal(!modal);
+    }
 
   return (
-    <div 
-        className='infomodal-container' 
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-    >
-        <span className='info-icon'>ℹ️</span>
-        {isHovered && (
-            <div>
-                <h3>Game Rules</h3>
-                <p>{rules}</p>
+    <div>
+        <button className="btn-modal" onClick={toggleModal}>
+            Rules
+        </button>
+
+        {modal &&
+        <div className="modal">
+            <div className="overlay" onClick={toggleModal}></div>
+            <div className="modal-content">
+                <h2>Rules</h2>
+                <p>1. Live cells with 5 or 6 live neighbors survive</p>
+                <p>2. Dead cells with 4 live neighbors revive</p>
+                <button className="close-modal" onClick={toggleModal}>Close</button>
             </div>
-        )}
+        </div>
+        }
     </div>
   )
 }
